@@ -1,0 +1,125 @@
+﻿@using System.Data;
+@{
+    ViewData["Title"] = "BÁO CÁO TIỀN VỀ CHI NHÁNH";
+}
+<style>
+    table, td, th {
+        border: 1px solid black;
+        margin-right: 100px;
+    }
+
+        td.num {
+            text-align: right;
+        }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    h3 {
+        color: blue;
+    }
+</style>
+</style>
+<head>
+    <meta name="viewport" content="width=device-with" />
+    <title>BCCN</title>
+
+
+</head>
+<body>
+    @*<table border="1">
+            <tr bgcolor="Yellow">
+
+                <th>Ma Loai KH</th>
+            </tr>
+            @foreach (DataRow row in Model.Rows)
+            {
+        <tr>
+          <td>@row["doanh_thu"]</td>
+        </tr>
+            }
+        </table>*@
+
+
+
+    <div class="container">
+        <h3>
+            BÁO CÁO TIỀN VỀ CHI NHÁNH
+        </h3>
+        <table border="1">
+
+            <tr bgcolor="White">
+
+                <th>Tên đơn Vị</th>
+                <th colspan="5">Thực Hiện OTC</th>
+                <th colspan="5">Thực Hiện ETC</th>
+                <th colspan="5"> Khoán OTC</th>
+                <th colspan="5">Khoán ETC</th>
+                <th colspan="2">CỘNG</th>
+                <th>Tỷ Lệ</th>
+                <th>Tiền Về Phiến</th>
+            </tr>
+            <tr>
+                <th> </th>
+                <th>OPC</th>
+                <th>HD2</th>
+                <th>CỒN</th>
+                <th>TW25</th>
+                <th>TỔNG TH OTC</th>
+                <th>OPC</th>
+                <th>HD2</th>
+                <th>CỒN</th>
+                <th>TW25</th>
+                <th>TỔNG TH ETC</th>
+                <th>OPC</th>
+                <th>HD2</th>
+                <th>CỒN</th>
+                <th>TW25</th>
+                <th>Tổng Khoán OTC</th>
+                <th>OPC</th>
+                <th>HD2</th>
+                <th>CỒN</th>
+                <th>TW25</th>
+                <th>Tổng Khoán ETC</th>
+                <th>TH</th>
+                <th>Khoán</th>
+                <th> </th>
+                <th> </th>
+
+            </tr>
+            @foreach (DataRow row in Model.Rows)
+            {
+                <tr>
+                    <td style="width : 30%">@row["Ten_dvcs1"]</td>
+                    <td>@row["Tien_Ve_TH_O"]</td>
+                    <td>@row["Tien_Ve_Sui_O"]</td>
+                    <td>@row["Tien_Ve_Con_O"]</td>
+                    <td>@row["Tien_Ve_25_O"]</td>
+                    <td>@row["Tien_Ve_Tong_O"]</td>
+                    <td>@row["Tien_Ve_TH_E"]</td>
+                    <td>@row["Tien_Ve_sui_E"]</td>
+                    <td>@row["Tien_Ve_con_E"]</td>
+                    <td>@row["Tien_Ve_25_E"]</td>
+                    <td>@row["Tien_Ve_Tong_E"]</td>
+                    <td>@row["Tien_Ve_K_O"]</td>
+                    <td>@row["Tien_Ve_K_Sui_O"]</td>
+                    <td>@row["Tien_Ve_K_Con_O"]</td>
+                    <td>@row["Tien_Ve_K_25_O"]</td>
+                    <td>@row["Tien_Ve_Tong_K_O"]</td>
+                    <td>@row["Tien_Ve_K_E"]</td>
+                    <td>@row["Tien_Ve_K_Sui_E"]</td>
+                    <td>@row["Tien_Ve_K_Con_E"]</td>
+                    <td>@row["Tien_Ve_K_25_E"]</td>
+                    <td>@row["Tien_Ve_Tong_K_E"]</td>
+                    <td>@row["Tien_Ve_tru_con"]</td>
+                    <td>@row["Tong_khoan"]</td>
+                    <td>@row["Ti_le"]</td>
+                    <td>@row["Tien_ve_phien"]</td>
+
+                </tr>
+            }
+        </table>
+    </div>
+
+</body>

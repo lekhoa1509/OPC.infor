@@ -1,0 +1,269 @@
+C:\Users\lekho\source\repos\web4\bin\web4.dll.config
+C:\Users\lekho\source\repos\web4\bin\web4.dll
+C:\Users\lekho\source\repos\web4\bin\web4.pdb
+C:\Users\lekho\source\repos\web4\bin\roslyn\csc.exe
+C:\Users\lekho\source\repos\web4\bin\roslyn\csc.exe.config
+C:\Users\lekho\source\repos\web4\bin\roslyn\csc.rsp
+C:\Users\lekho\source\repos\web4\bin\roslyn\csi.exe
+C:\Users\lekho\source\repos\web4\bin\roslyn\csi.rsp
+C:\Users\lekho\source\repos\web4\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lekho\source\repos\web4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lekho\source\repos\web4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\lekho\source\repos\web4\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lekho\source\repos\web4\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\lekho\source\repos\web4\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lekho\source\repos\web4\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lekho\source\repos\web4\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\lekho\source\repos\web4\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\lekho\source\repos\web4\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lekho\source\repos\web4\bin\roslyn\System.AppContext.dll
+C:\Users\lekho\source\repos\web4\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lekho\source\repos\web4\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\lekho\source\repos\web4\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\lekho\source\repos\web4\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\lekho\source\repos\web4\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lekho\source\repos\web4\bin\roslyn\vbc.exe
+C:\Users\lekho\source\repos\web4\bin\roslyn\vbc.exe.config
+C:\Users\lekho\source\repos\web4\bin\roslyn\vbc.rsp
+C:\Users\lekho\source\repos\web4\bin\roslyn\VBCSCompiler.exe
+C:\Users\lekho\source\repos\web4\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lekho\source\repos\web4\bin\Antlr3.Runtime.dll
+C:\Users\lekho\source\repos\web4\bin\BoldReports.Mvc.dll
+C:\Users\lekho\source\repos\web4\bin\EntityFramework.dll
+C:\Users\lekho\source\repos\web4\bin\EntityFramework.SqlServer.dll
+C:\Users\lekho\source\repos\web4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lekho\source\repos\web4\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lekho\source\repos\web4\bin\Newtonsoft.Json.dll
+C:\Users\lekho\source\repos\web4\bin\System.Web.Helpers.dll
+C:\Users\lekho\source\repos\web4\bin\System.Web.Mvc.dll
+C:\Users\lekho\source\repos\web4\bin\System.Web.Optimization.dll
+C:\Users\lekho\source\repos\web4\bin\System.Web.Razor.dll
+C:\Users\lekho\source\repos\web4\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lekho\source\repos\web4\bin\System.Web.WebPages.dll
+C:\Users\lekho\source\repos\web4\bin\System.Web.WebPages.Razor.dll
+C:\Users\lekho\source\repos\web4\bin\WebGrease.dll
+C:\Users\lekho\source\repos\web4\bin\BoldReports.Mvc.xml
+C:\Users\lekho\source\repos\web4\bin\EntityFramework.xml
+C:\Users\lekho\source\repos\web4\bin\EntityFramework.SqlServer.xml
+C:\Users\lekho\source\repos\web4\bin\System.Web.Helpers.xml
+C:\Users\lekho\source\repos\web4\bin\System.Web.Mvc.xml
+C:\Users\lekho\source\repos\web4\bin\System.Web.Optimization.xml
+C:\Users\lekho\source\repos\web4\bin\System.Web.Razor.xml
+C:\Users\lekho\source\repos\web4\bin\System.Web.WebPages.xml
+C:\Users\lekho\source\repos\web4\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lekho\source\repos\web4\bin\System.Web.WebPages.Razor.xml
+C:\Users\lekho\source\repos\web4\bin\Newtonsoft.Json.xml
+C:\Users\lekho\source\repos\web4\bin\Antlr3.Runtime.pdb
+C:\Users\lekho\source\repos\web4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lekho\source\repos\web4\obj\Release\web4.dll.licenses
+C:\Users\lekho\source\repos\web4\obj\Release\web4.dll
+C:\Users\lekho\source\repos\web4\obj\Release\web4.pdb
+C:\Users\lekho\source\repos\web4\obj\Release\web4.csprojResolveAssemblyReference.cache
+D:\web4\bin\web4.dll.config
+D:\web4\bin\web4.dll
+D:\web4\bin\web4.pdb
+D:\web4\bin\roslyn\csc.exe
+D:\web4\bin\roslyn\csc.exe.config
+D:\web4\bin\roslyn\csc.rsp
+D:\web4\bin\roslyn\csi.exe
+D:\web4\bin\roslyn\csi.rsp
+D:\web4\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\web4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\web4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\web4\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\web4\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\web4\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\web4\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\web4\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\web4\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\web4\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\web4\bin\roslyn\System.AppContext.dll
+D:\web4\bin\roslyn\System.Collections.Immutable.dll
+D:\web4\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\web4\bin\roslyn\System.IO.FileSystem.dll
+D:\web4\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\web4\bin\roslyn\System.Reflection.Metadata.dll
+D:\web4\bin\roslyn\vbc.exe
+D:\web4\bin\roslyn\vbc.exe.config
+D:\web4\bin\roslyn\vbc.rsp
+D:\web4\bin\roslyn\VBCSCompiler.exe
+D:\web4\bin\roslyn\VBCSCompiler.exe.config
+D:\web4\bin\Antlr3.Runtime.dll
+D:\web4\bin\BoldReports.Mvc.dll
+D:\web4\bin\EntityFramework.dll
+D:\web4\bin\EntityFramework.SqlServer.dll
+D:\web4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\web4\bin\Microsoft.Web.Infrastructure.dll
+D:\web4\bin\Newtonsoft.Json.dll
+D:\web4\bin\System.Web.Helpers.dll
+D:\web4\bin\System.Web.Mvc.dll
+D:\web4\bin\System.Web.Optimization.dll
+D:\web4\bin\System.Web.Razor.dll
+D:\web4\bin\System.Web.WebPages.Deployment.dll
+D:\web4\bin\System.Web.WebPages.dll
+D:\web4\bin\System.Web.WebPages.Razor.dll
+D:\web4\bin\WebGrease.dll
+D:\web4\bin\BoldReports.Mvc.xml
+D:\web4\bin\EntityFramework.xml
+D:\web4\bin\EntityFramework.SqlServer.xml
+D:\web4\bin\System.Web.Helpers.xml
+D:\web4\bin\System.Web.Mvc.xml
+D:\web4\bin\System.Web.Optimization.xml
+D:\web4\bin\System.Web.Razor.xml
+D:\web4\bin\System.Web.WebPages.xml
+D:\web4\bin\System.Web.WebPages.Deployment.xml
+D:\web4\bin\System.Web.WebPages.Razor.xml
+D:\web4\bin\Newtonsoft.Json.xml
+D:\web4\bin\Antlr3.Runtime.pdb
+D:\web4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\web4\obj\Release\web4.csprojResolveAssemblyReference.cache
+D:\web4\obj\Release\web4.Properties.Resources.resources
+D:\web4\obj\Release\web4.csproj.GenerateResource.Cache
+D:\web4\obj\Release\web4.dll.licenses
+D:\web4\obj\Release\web4.dll
+D:\web4\obj\Release\web4.pdb
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\web4.dll.config
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\web4.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\web4.pdb
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\csc.exe
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\csc.exe.config
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\csc.rsp
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\csi.exe
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\csi.rsp
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\System.AppContext.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\System.Collections.Immutable.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\System.IO.FileSystem.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\System.Reflection.Metadata.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\vbc.exe
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\vbc.exe.config
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\vbc.rsp
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\VBCSCompiler.exe
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\roslyn\VBCSCompiler.exe.config
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\Antlr3.Runtime.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\BoldReports.Mvc.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.Charts.v20.2.Core.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.CodeParser.v20.2.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.Data.Desktop.v20.2.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.Data.v20.2.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.DataAccess.v20.2.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.Office.v20.2.Core.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.Pdf.v20.2.Core.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.PivotGrid.v20.2.Core.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.Printing.v20.2.Core.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.RichEdit.v20.2.Core.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.RichEdit.v20.2.Export.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.Sparkline.v20.2.Core.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.Xpo.v20.2.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.XtraCharts.v20.2.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.XtraGauges.v20.2.Core.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.XtraReports.v20.2.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\EntityFramework.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\EntityFramework.SqlServer.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\Microsoft.Web.Infrastructure.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\Newtonsoft.Json.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\System.Web.Helpers.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\System.Web.Mvc.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\System.Web.Optimization.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\System.Web.Razor.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\System.Web.WebPages.Deployment.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\System.Web.WebPages.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\System.Web.WebPages.Razor.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\WebGrease.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.Pdf.v20.2.Drawing.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.DataVisualization.v20.2.Core.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\BoldReports.Mvc.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.Data.Desktop.v20.2.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.Data.v20.2.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.DataAccess.v20.2.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.Office.v20.2.Core.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.Pdf.v20.2.Core.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.PivotGrid.v20.2.Core.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.Printing.v20.2.Core.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.RichEdit.v20.2.Core.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.Sparkline.v20.2.Core.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.Xpo.v20.2.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.XtraCharts.v20.2.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.XtraGauges.v20.2.Core.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.XtraReports.v20.2.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\EntityFramework.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\EntityFramework.SqlServer.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\System.Web.Helpers.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\System.Web.Mvc.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\System.Web.Optimization.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\System.Web.Razor.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\System.Web.WebPages.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\System.Web.WebPages.Deployment.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\System.Web.WebPages.Razor.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\Newtonsoft.Json.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\Antlr3.Runtime.pdb
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\DevExpress.Pdf.v20.2.Drawing.xml
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\de\DevExpress.Data.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\es\DevExpress.Data.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ja\DevExpress.Data.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ru\DevExpress.Data.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\de\DevExpress.DataAccess.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\es\DevExpress.DataAccess.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ja\DevExpress.DataAccess.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ru\DevExpress.DataAccess.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\de\DevExpress.Office.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\es\DevExpress.Office.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ja\DevExpress.Office.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ru\DevExpress.Office.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\de\DevExpress.Pdf.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\es\DevExpress.Pdf.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ja\DevExpress.Pdf.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ru\DevExpress.Pdf.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\de\DevExpress.PivotGrid.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\es\DevExpress.PivotGrid.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ja\DevExpress.PivotGrid.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ru\DevExpress.PivotGrid.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\de\DevExpress.Printing.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\es\DevExpress.Printing.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ja\DevExpress.Printing.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ru\DevExpress.Printing.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\de\DevExpress.RichEdit.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\es\DevExpress.RichEdit.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ja\DevExpress.RichEdit.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ru\DevExpress.RichEdit.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\de\DevExpress.Sparkline.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\es\DevExpress.Sparkline.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ja\DevExpress.Sparkline.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ru\DevExpress.Sparkline.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\de\DevExpress.Xpo.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\es\DevExpress.Xpo.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ja\DevExpress.Xpo.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ru\DevExpress.Xpo.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\de\DevExpress.XtraCharts.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\es\DevExpress.XtraCharts.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ja\DevExpress.XtraCharts.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ru\DevExpress.XtraCharts.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\de\DevExpress.XtraGauges.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\es\DevExpress.XtraGauges.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ja\DevExpress.XtraGauges.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ru\DevExpress.XtraGauges.v20.2.Core.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\de\DevExpress.XtraReports.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\es\DevExpress.XtraReports.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ja\DevExpress.XtraReports.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\bin\ru\DevExpress.XtraReports.v20.2.resources.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\obj\Release\web4.csproj.AssemblyReference.cache
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\obj\Release\web4.Properties.Resources.resources
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\obj\Release\web4.csproj.GenerateResource.cache
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\obj\Release\web4.dll.licenses
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\obj\Release\web4.csproj.CoreCompileInputs.cache
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\obj\Release\web4.csproj.CopyComplete
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\obj\Release\web4.dll
+G:\SAVE OPC Ban Goc Khong xoa\web4-1\web4\obj\Release\web4.pdb

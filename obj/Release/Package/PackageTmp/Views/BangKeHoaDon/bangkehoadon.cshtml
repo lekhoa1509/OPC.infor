@@ -1,0 +1,513 @@
+﻿@using System.Data;
+@using System.Web.Helpers;
+@using System.Web.Razor;
+@using System.Globalization;
+
+@{
+    ViewBag.Title = "OPC Bao Cao | OPCPHARMA";
+
+}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title> OPC Bao Cao | OPCPHARMA </title>
+    <link rel="stylesheet" href="~/Styles/mainbaocao.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        a:hover {
+            background-color: lightskyblue;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .container table {
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            zoom: 90%;
+            text-align: center;
+        }
+
+        .container canvas {
+            justify-content: center;
+            align-items: center;
+            height: min-content;
+            zoom: normal;
+        }
+
+        h3 {
+            text-align: center;
+            color: blue;
+        }
+
+        table, td, th {
+            border: 1px solid black;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        .num {
+            text-align: center;
+            width: 100px;
+        }
+
+        .ten {
+            text-align: left;
+        }
+
+        button {
+            background-color: #2297f6;
+            border: none;
+            outline: none;
+            padding: 5px;
+            font-size: 30px;
+            color: #ffffff;
+            cursor: pointer;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        p {
+            color: #ffffff;
+        }
+
+
+
+        canvas {
+            width: 200px;
+            height: 100px;
+            text-align: center;
+        }
+
+        .tu_ngay {
+            height: 35px;
+            border-radius: 5px;
+            border: 1px solid #dcdcdc;
+            padding: 0px 10px;
+            outline: none;
+            Format: 'd-m-y';
+        }
+
+        .den_ngay {
+            height: 35px;
+            border-radius: 5px;
+            border: 1px solid #dcdcdc;
+            padding: 0px 10px;
+            outline: none;
+            Format: 'd-m-y';
+        }
+
+
+
+        div#chart {
+            text-align: center;
+            display: flex;
+            justify-content:;
+            width: 50%;
+            height: 300px;
+        }
+
+        .submit {
+            /*height: 50px;
+        width: 100px;*/
+            background-color: silver;
+            border: none;
+            color: cadetblue;
+            border-radius: 7px;
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 20px;
+            justify-content: center;
+            align-items: center;
+            transition: all 1s ease-in-out;
+        }
+
+            .submit:hover {
+                background-color: darkcyan;
+                color: #ffffff;
+                transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+            }
+
+        .form .locBC {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            width: 500px;
+            height: 400px;
+            float: left;
+        }
+
+        .form table {
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            zoom: 90%;
+            text-align: center;
+        }
+
+        .expandable {
+            cursor: pointer;
+        }
+
+        .percent {
+            width: 20%;
+            text-align: right;
+            text-align: center;
+            background-color: #eee;
+            background: linear-gradient(to right, #3399dd, #3399dd);
+            background-size: 1% 100%;
+            background-repeat: no-repeat;
+        }
+
+      
+
+        #data {
+            width: 100%;
+            height: 150px;
+            background: white;
+            float: inline-start;
+        }
+
+        .dropdown-check-list {
+            display: inline-block;
+        }
+
+          .dropdown-check-list .anchor {
+                position: relative;
+                cursor: pointer;
+                display: inline-block;
+                padding: 5px 50px 5px 10px;
+                border: 1px solid #ccc;
+            }
+
+                .dropdown-check-list .anchor:after {
+                    position: absolute;
+                    content: "";
+                    border-left: 2px solid black;
+                    border-top: 2px solid black;
+                    padding: 5px;
+                    right: 10px;
+                    top: 20%;
+                    -moz-transform: rotate(-135deg);
+                    -ms-transform: rotate(-135deg);
+                    -o-transform: rotate(-135deg);
+                    -webkit-transform: rotate(-135deg);
+                    transform: rotate(-135deg);
+                }
+
+                .dropdown-check-list .anchor:active:after {
+                    right: 8px;
+                    top: 21%;
+                }
+
+            .dropdown-check-list ul.items {
+                padding: 2px;
+                display: none;
+                margin: 0;
+                border: 1px solid #ccc;
+                border-top: none;
+            }
+
+                .dropdown-check-list ul.items li {
+                    list-style: none;
+                }
+
+            .dropdown-check-list.visible .anchor {
+                color: #0094ff;
+            }
+
+            .dropdown-check-list.visible .items {
+                display: block;
+            }
+
+        .custom-combobox-container {
+            position: relative;
+            width: 100%;
+            outline: none;
+            border: none;
+        }
+
+      .custom-combobox {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            border: 1px solid rgb(199, 199, 199);
+            padding: 10px;
+        }
+
+           .custom-combobox input[type="text"] {
+                width: 95%;
+                border: none;
+                outline: none;
+                background: none;
+            }
+
+        .options-container {
+            position: absolute;
+            width: 100%;
+            z-index: 100;
+            border: 1px solid rgb(204, 204, 204);
+            border-top: none;
+            display: none;
+            height: 150px;
+            overflow-y: scroll;
+        }
+        
+            .options-container label {
+                display: block;
+                cursor: pointer;
+                padding: 5px;
+                margin-top: 5px;
+                user-select: none;
+            }
+
+                .options-container label:hover {
+                    background: rgb(255, 255, 255);
+                }
+
+            .options-container::-webkit-scrollbar {
+                width: 8px;
+            }
+
+            .options-container::-webkit-scrollbar-thumb {
+                background-color: white;
+            }
+        .sidebar {
+            position: fixed;
+            height: 100%;
+            width: 200px;
+            background: lightblue;
+            transition: all 0.5s ease;
+        }
+
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0/js/bootstrap-select.min.js"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+
+        </div>
+        <ul class="nav-links" style="display: flex; justify-content: center;" >
+            <li>
+                    <form action="bangkehoadon" method="post">
+                        <div id="locBC">
+                            <a>Từ Ngày</a><br /><br />
+                            <input class="tu_ngay" placeholder="Từ Ngày" id="tu_ngay" name="From_date" type="date" format="YYYY-MM-DD" />
+                            <script>$("#tu_ngay").datetimepicker({ timepicker: false, format: 'Y-m-d' });</script><br /><br />
+                            <a>Đến Ngày</a><br /><br />
+                            <input class="den_ngay" id="den_ngay" placeholder=" Đến Ngày" name="To_date" type="DATE" format="YYYY-MM-DD" /><br /><br />
+                            <script>$("#den_ngay").datetimepicker({ timepicker: false, format: 'Y-m-d' });</script>
+                        </div>
+                        <div class="boxcheck">
+                            <a style="margin: 5px;">Tình Trạng</a>
+                            <div class="custom-combobox-container">
+                                <div class="custom-combobox" onclick="showOptions(this)">
+                                    <input name="Tinh_Trang" type="text" id="inputCheckbox" readonly>
+                                </div>
+                                <div class="options-container" id="divOptions" onmouseleave="hideOptions(this)">
+                                    <label for="one"> <input type="checkbox" id="one" value="Open"> Open </label>
+                                    <label for="two"> <input type="checkbox" id="two" value="In Process"> In Process </label>
+                                    <label for="three"> <input type="checkbox" id="three" value="Completed"> Completed </label>
+                                    <label for="Four"> <input type="checkbox" id="Four" value="In Preparation"> In Preparation </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <button class="submit" type="submit"> Chạy Báo Cáo </button>
+                        </div>
+                    </form>
+            </li>
+        </ul>
+    </div>
+    <section class="home-section">
+
+            <h3>
+                BÁO CÁO CHI TIẾT CHI PHÍ THEO PHÒNG BAN
+            </h3>
+
+            <div id="chart">
+                <canvas id="myChart"></canvas> <canvas id="myChart-bar" width="600"></canvas>
+            </div>
+            <table id="Table" border="1">
+                <tr bgcolor="White">
+
+
+                    <th>Ngày Chứng từ</th>
+                    <th>Số Chứng Từ</th>
+                    <th>Mã Đối Tượng</th>
+                    <th>Tên Đối Tượng</th>
+                    <th>Mã Vt</th>
+                    <th>Tên Vật Tư</th>
+                    <th>Loại vật Tư</th>
+                    <th>Số Lượng</th>
+                    <th>Tiền (-VAT)</th>
+                    <th>Tiền (+VAT)</th>
+                    <th>Tình Trạng</th>
+                    <th>Mã Đvcs</th>
+                </tr>
+
+
+                @foreach (DataRow row2 in Model.Tables[0].Rows)
+                {
+            <tr>
+                <td>@row2["Ngay_Ct"]</td>
+                <td>@row2["so_ct"]</td>
+                <td>@row2["ma_dt"]</td>
+                <td>@row2["ten_dt"]</td>
+                <td>@row2["ma_vt"]</td>
+                <td>@row2["ten_vt"]</td>
+                <td>@row2["Loai_Vt"]</td>
+                <td class="num">@String.Format("{0:n0}", Convert.ToDecimal(row2["so_luong"]))</td>
+                <td class="num">@String.Format("{0:n0}", Convert.ToDecimal(row2["Tien"]))</td>
+                <td class="num">@String.Format("{0:n0}", Convert.ToDecimal(row2["Tong_tien"]))</td>
+                <td>@row2["Tinh_trang"]</td>
+                <td>@row2["Ma_Dvcs1"]</td>
+            </tr>
+                }
+
+
+            </table>
+    </section>
+
+    @*biểu đồ dạng cột*@
+
+    @{
+        var labels = new List<string>();
+        var data = new List<Decimal>();
+    }
+
+    @foreach (DataRow row in Model.Tables[1].Rows)
+    {
+        labels.Add(row["Loai_Vt"].ToString());
+        data.Add(Convert.ToDecimal(row["Tong_tien"]));
+
+    }
+    <script>
+    var ctx = document.getElementById('myChart-bar').getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels:  @Html.Raw(Json.Encode(labels)),
+            datasets: [{
+                label: 'Loại VT',
+                data: @Html.Raw(Json.Encode(data)),
+                backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                borderColor: 'rgba(255, 99, 132, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true
+                    }
+                }]
+            }
+        }
+    });
+
+	const expandableRows = document.querySelectorAll('tr.expandable');
+	expandableRows.forEach(row => {
+ 	 row.addEventListener('click', () => {
+    row.nextElementSibling.classList.toggle('show');
+  });
+});
+	var num= document.getElementById("num").value
+    document.getElementById("num").innerHTML = number.toLocaleString('en-US');
+
+
+
+
+
+    </script>
+    <script>
+        // Lấy tất cả các ô (cell) có class là "percent"
+        var percentCells = document.querySelectorAll('td.percent');
+
+        // Duyệt qua tất cả các ô (cell) có class là "percent"
+        percentCells.forEach(function (cell) {
+            // Lấy nội dung của ô (cell)
+            var cellText = cell.textContent;
+
+            // Thêm phần trăm 100% vào nội dung của ô (cell)
+            var s = cellText + ' 100%';
+
+            // Thiết lập kích thước hình nền của ô (cell) là s
+            cell.style.backgroundSize = s;
+        });
+    </script>
+    <script>
+        function showOptions(e) {
+            let divOptions = document.getElementById("divOptions");
+            if (divOptions.style.display == "none" || divOptions.style.display == "") {
+                divOptions.style.display = "inline-block";
+            } else {
+                divOptions.style.display = "none";
+            }
+        }
+        function clickMe(e) {
+            console.log('click me');
+            e.stopPropagation();
+        }
+        function hideOptions(e) {
+            let divOptions = document.getElementById("divOptions");
+
+            if (divOptions.contains(e.target)) {
+                divOptions.style.display = "inline-block";
+            } else {
+                divOptions.style.display = "none";
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            let checkbox = document.querySelectorAll("#divOptions input");
+            let inputCheckbox = document.getElementById("inputCheckbox");
+
+            for (let i = 0; i < checkbox.length; i++) {
+                checkbox[i].addEventListener("change", (e) => {
+                    if (e.target.checked == true) {
+                        if (inputCheckbox.value == "") {
+                            inputCheckbox.value = checkbox[i].value;
+                        } else {
+                            inputCheckbox.value += `,${checkbox[i].value}`;
+                        }
+                    } else {
+                        let values = inputCheckbox.value.split(",");
+
+                        for (let r = 0; r < values.length; r++) {
+                            if (values[r] == e.target.value) {
+                                values.splice(r, 1);
+                            }
+                        }
+                        inputCheckbox.value = values;
+                    }
+                });
+            }
+        });
+
+    </script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+﻿@using System.Data;
+@{
+}
+<style>
+    .container {
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        zoom: 90%;
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+        color: blue;
+    }
+
+    table, td, th {
+        border: 1px solid black;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    .num {
+        text-align: right;
+    }
+    .ten
+    {
+        text-align: left;
+    }
+
+    button {
+        background-color: #2297f6;
+        border: none;
+        outline: none;
+        padding: 5px;
+        font-size: 30px;
+        color: #ffffff;
+        cursor: pointer;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    p {
+        color: #ffffff;
+    }
+</style>
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-with" />
+    <title>BCCN</title>
+
+
+</head>
+<body>
+    @*<table border="1">
+            <tr bgcolor="Yellow">
+
+                <th>Ma Loai KH</th>
+            </tr>
+            @foreach (DataRow row in Model.Rows)
+            {
+        <tr>
+          <td>@row["doanh_thu"]</td>
+        </tr>
+            }
+        </table>*@
+
+
+
+    <div class="container">
+        <h3>
+            BÁO CÁO DOANH THU TỔNG HỢP SẢN PHẨM
+        </h3>
+        <table id="Table" border="1">
+            <tr bgcolor="White">
+
+
+                <th>STT</th>
+                <th>Tên Vật Tư</th>
+                <th>Đơn Vị Tính</th>
+                <th>Loại Hàng</th>
+                <th>S/L Bán Thực Tế</th>
+                <th>Số Lượng KM</th>
+                <th>Doanh Thu Thuần</th>
+
+            </tr>
+
+
+            @foreach (DataRow row in Model.Tables[0].Rows)
+            {
+                <tr>
+                    <td>&nbsp;@row["STT"]&nbsp;</td>
+                    <td class="ten">&nbsp;@row["Ten_Vt"]&nbsp;</td>
+                    <td class="ten">&nbsp; @row["dvt"] &nbsp;</td>
+                    <td class="ten">&nbsp;@row["Loai_hang"] &nbsp;</td>
+                    <td class="num">&nbsp;@row["So_Luong_TT1"] &nbsp;</td>
+                    <td class="num">&nbsp;@row["So_Luong_KM1"] &nbsp;</td>
+                    <td class="num">&nbsp;@row["Doanh_Thu_Thuan1"] &nbsp;</td>
+                </tr>
+
+                
+            }
+            @foreach (DataRow row1 in Model.Tables[1].Rows)
+            {
+            <td></td>
+            <td class="total"><h2>Tổng Cộng</h2></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><b>@row1["Tong_cong"]</b></td>
+          
+            }
+        </table>
+        <span id="val"></span>
+
+        <script>
+
+            var table = document.getElementById("Table"), sumVal = 0;
+
+            for (var i = 1; i < table.rows.length; i++) {
+                sumVal = sumVal + parseInt(table.rows[i].cells[7].innerHTML);
+            }
+
+            document.getElementById("val").innerHTML = "Sum Value = " + sumVal;
+            console.log(sumVal);
+
+        </script>
+
+        <button onclick="myfun()">Print Page</button>
+        <button><a href="/Home/About"><p>Trang Chủ</p></button>
+        <script type="text/javascript">
+            function myfun() {
+                window.print();
+            }
+        </script>
+    </div>
+</body>
+</html>

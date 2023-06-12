@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="B7_OPCModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="B7_OPCEntities2" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="usp_HRM_DanhSachNhanVienALL">
+      <Parameter Name="p_Ngay_Ct" Mode="In" Type="DateTime" />
+      <Parameter Name="p_Ngay_Ct_1" Mode="In" Type="DateTime" />
+      <Parameter Name="p_Ma_Bp" Mode="In" Type="String" />
+      <Parameter Name="p_Ma_CbNv" Mode="In" Type="String" />
+      <Parameter Name="p_MA_BP1" Mode="In" Type="String" />
+      <Parameter Name="p_Ten_BP" Mode="InOut" Type="String" />
+      <Parameter Name="p_Type" Mode="In" Type="String" />
+      <Parameter Name="p_Chuyen_Khoan" Mode="In" Type="Boolean" />
+      <Parameter Name="p_Ma_Dvcs" Mode="In" Type="String" />
+      <Parameter Name="p_User_Name" Mode="In" Type="String" />
+      <Parameter Name="p_Permission" Mode="In" Type="Boolean" />
+      <Parameter Name="p_Ten_CBNV" Mode="InOut" Type="String" />
+      <Parameter Name="p_CMND" Mode="InOut" Type="String" />
+      <Parameter Name="p_NGAY_CAP" Mode="InOut" Type="DateTime" />
+      <Parameter Name="p_NOI_CAP" Mode="InOut" Type="String" />
+      <Parameter Name="p_Ten_Chuc_Danh" Mode="InOut" Type="String" />
+      <Parameter Name="p_SO_DT" Mode="InOut" Type="String" />
+      <Parameter Name="p_GETDATE" Mode="InOut" Type="DateTime" />
+      <Parameter Name="p_PHONG_BAN" Mode="InOut" Type="String" />
+      <Parameter Name="p_LOAI_HD" Mode="InOut" Type="String" />
+      <Parameter Name="p_LAYOUT_XML" Mode="InOut" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

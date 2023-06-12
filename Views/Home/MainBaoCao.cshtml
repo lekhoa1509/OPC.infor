@@ -1,0 +1,135 @@
+﻿@{
+    ViewBag.Title = "OPC Bao Cao | OPCPHARMA";
+}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title> OPC Bao Cao | OPCPHARMA </title>
+    <link rel="stylesheet" href="~/Styles/mainbaocao.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        a:hover {
+            background-color: lightskyblue;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+            <a href="/Home/About"><img src="~/Images/opc.png"></a>
+            @*<i class='bx bxl-c-plus-plus'></i>*@
+            <span class="logo_name">OPC</span>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="/Home/About" class="active">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_name">Dashboard</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class='bx bx-box'></i>
+                    <span class="links_name">Danh Mục</span>
+                </a>
+            </li>
+            <li>
+                <a href="/Home/MainBaoCao">
+                    <i class='bx bx-menu'></i>
+                    <span class="links_name">Báo Cáo</span>
+                </a>
+            </li>
+
+
+
+
+            <li onclick="logout()" class="log_out">
+                <a href="#">
+                    <i onclick="logout()" class='bx bx-log-out'></i>
+                    <span onclick="logout()" class="links_name">Log out</span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+    <section class="home-section">
+        <nav>
+            <div class="sidebar-button">
+                <i class='bx bx-menu sidebarBtn'></i>
+                <span class="dashboard">Báo Cáo</span>
+            </div>
+            <div class="search-box">
+                <input id="myInput" onkeyup="myFunction()" type="text" placeholder="Search...">
+                <i class='bx bx-search'></i>
+            </div>
+            <div>
+
+            </div>
+        </nav>
+
+        <div class="home-content">
+            <ul class="home-baocao" id="myUL">
+                <li><a href="/BangKeHoaDon/bangkehoadon"> &emsp;1. Bảng Kê Chứng Từ</a></li>
+
+            </ul>
+        </div>
+    </section>
+
+    <script>
+        let sidebar = document.querySelector(".sidebar");
+        let sidebarBtn = document.querySelector(".sidebarBtn");
+        sidebarBtn.onclick = function () {
+            sidebar.classList.toggle("active");
+            if (sidebar.classList.contains("active")) {
+                sidebarBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+            } else
+                sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+        }
+
+        function logout() {
+            window.location.href = "/home/login"
+        }
+        document.getElementById("admin_name").innerHTML = localStorage.getItem("textvalues");
+
+
+
+        $("#leftside-navigation .sub-menu > a").click(function (e) {
+            $("#leftside-navigation ul ul").slideUp(), $(this).next().is(":visible") || $(this).next().slideDown(),
+                e.stopPropagation()
+        })
+        function ChangPassword() {
+            window.location.href = "/home/doimatkhau"
+        }
+
+
+
+            function myFunction() {
+        var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+}
+    </script>
+
+</body>
+</html>

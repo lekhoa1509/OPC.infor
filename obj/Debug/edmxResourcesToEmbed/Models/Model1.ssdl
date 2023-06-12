@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="B7_OPCModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <Function Name="usp_HRM_DanhSachNhanVienALL" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="p_Ngay_Ct" Type="datetime" Mode="In" />
+    <Parameter Name="p_Ngay_Ct_1" Type="smalldatetime" Mode="In" />
+    <Parameter Name="p_Ma_Bp" Type="nvarchar" Mode="In" />
+    <Parameter Name="p_Ma_CbNv" Type="nvarchar" Mode="In" />
+    <Parameter Name="p_MA_BP1" Type="nvarchar" Mode="In" />
+    <Parameter Name="p_Ten_BP" Type="nvarchar" Mode="InOut" />
+    <Parameter Name="p_Type" Type="char" Mode="In" />
+    <Parameter Name="p_Chuyen_Khoan" Type="bit" Mode="In" />
+    <Parameter Name="p_Ma_Dvcs" Type="nchar" Mode="In" />
+    <Parameter Name="p_User_Name" Type="varchar" Mode="In" />
+    <Parameter Name="p_Permission" Type="bit" Mode="In" />
+    <Parameter Name="p_Ten_CBNV" Type="nvarchar" Mode="InOut" />
+    <Parameter Name="p_CMND" Type="nvarchar" Mode="InOut" />
+    <Parameter Name="p_NGAY_CAP" Type="smalldatetime" Mode="InOut" />
+    <Parameter Name="p_NOI_CAP" Type="nvarchar" Mode="InOut" />
+    <Parameter Name="p_Ten_Chuc_Danh" Type="nvarchar" Mode="InOut" />
+    <Parameter Name="p_SO_DT" Type="varchar" Mode="InOut" />
+    <Parameter Name="p_GETDATE" Type="smalldatetime" Mode="InOut" />
+    <Parameter Name="p_PHONG_BAN" Type="nvarchar" Mode="InOut" />
+    <Parameter Name="p_LOAI_HD" Type="nvarchar" Mode="InOut" />
+    <Parameter Name="p_LAYOUT_XML" Type="nvarchar(max)" Mode="InOut" />
+  </Function>
+  <EntityContainer Name="B7_OPCModelStoreContainer" />
+</Schema>
